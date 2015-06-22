@@ -1,5 +1,23 @@
+
+
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="iptvbrasil.repositorio" name="IPTV Brasil Repositorio" version="0.0.1" provider-name="iptvbrasil">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="defaut.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Canais do Mundo em um so lugar.</summary>
+    <description lang="en">Canais do Mundo em um so lugar.</description>
+	<platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="iptvbrasil.repositorio" name="IPTV Brasil Repositorio" version="0.0.1" provider-name="iptvbrasil">
 	<extension point="xbmc.addon.repository" name="IPTV Brasil Repositorio">
 		<info compressed="false">http://raw.github.com/iptvbrasil/iptvbrasil.repositorio/master/addons.xml</info>
